@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webxr Ar</title>
+    <link rel ="stylesheet" href = "style.css"/>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- <script type="module" src="/cube/normal-cube.js"></script>
+    <script type = "module" src = "/cube/xr-cube.js"></script> -->
+    <!-- <script type = "module" src = "/cube/xr-hit-cube.js"></script> -->
+    <!-- <script type = "module" src = "/model/xr-hit-models.js"></script> -->
+    <script type = "module" src = "/model/xr-domOverlay.js"></script> 
+  
+    <div id = "overlay-content">
+      <div id = "container">
+        <label for = "model-select">Choose Model</label>
+        <select id = "model-select">
+          <option value ="tree1">tree1</option>
+          <option value = "tree2">tree2</option>
+        </select>
+      </div>
+    </div>
+  </body>
+</html>
